@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="agp-gg-Msz">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="128"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="110"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="News Chronicle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tik-ms-IPs">
                                                 <rect key="frame" x="25" y="20" width="161" height="27"/>
@@ -62,7 +62,7 @@
                                         <constraints>
                                             <constraint firstAttribute="width" constant="414" id="7Yp-H2-yEu"/>
                                             <constraint firstItem="tik-ms-IPs" firstAttribute="leading" secondItem="agp-gg-Msz" secondAttribute="leading" constant="25" id="Dk5-7W-N7w"/>
-                                            <constraint firstAttribute="height" constant="128" id="F2c-HM-16M"/>
+                                            <constraint firstAttribute="height" constant="110" id="F2c-HM-16M"/>
                                             <constraint firstItem="n0P-uw-WVz" firstAttribute="leading" secondItem="lYs-Wc-4ax" secondAttribute="trailing" constant="35" id="JMP-dy-zxn"/>
                                             <constraint firstItem="lYs-Wc-4ax" firstAttribute="leading" secondItem="agp-gg-Msz" secondAttribute="leading" constant="25" id="Jyv-ad-yhL"/>
                                             <constraint firstItem="tik-ms-IPs" firstAttribute="top" secondItem="agp-gg-Msz" secondAttribute="top" constant="20" id="K3y-PK-a56"/>
@@ -71,7 +71,7 @@
                                         </constraints>
                                     </view>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="f6p-We-ELa">
-                                        <rect key="frame" x="0.0" y="128" width="414" height="680"/>
+                                        <rect key="frame" x="0.0" y="110" width="414" height="698"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <color key="separatorColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <prototypes>
